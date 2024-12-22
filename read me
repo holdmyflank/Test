@@ -1,2 +1,47 @@
-# ACA2021-Example
-An Example for Academic Writing, Norms, and Ethics
+\documentclass{article}
+
+% Required packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+
+\title{Simple LaTeX Project Example}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is a simple LaTeX document demonstrating how to create a paper, insert mathematical formulas, and include images.
+\end{abstract}
+
+\section{Introduction}
+LaTeX is a high-quality typesetting system, especially suitable for writing academic papers and technical documents. It offers powerful features for formatting mathematical formulas and managing references.
+
+\section{Mathematical Formula}
+Here is a simple mathematical formula:
+
+\[
+E = mc^2
+\]
+
+Where \(E\) is energy, \(m\) is mass, and \(c\) is the speed of light.
+
+\section{Inserting Images}
+You can also insert images into your document. Here is how you would do that:
+
+
+\textbf{\begin{figure}
+\centering
+\includegraphics[width=0.25\linewidth]{zhw.jpg}
+\caption{\label{fig:zhw}weixin.}
+\end{figure}}
+
+\section{Conclusion}
+This is a simple LaTeX example. By using this template, you can learn how to write documents in LaTeX, including mathematical formulas and images.
+
+\end{document}
